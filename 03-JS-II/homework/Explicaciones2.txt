@@ -1,0 +1,2 @@
+* `for`: Es un bucle, es decir repite lo que contenga en el codigo a ejecutar.
+* `&&`, `||`, `!`: son conectores logicos, el primero significa "Y", el segundo "o" y el tercero es la negación.
