@@ -1,0 +1,9 @@
+*variables: es un espacio de memoria reservado que puede guardar distintos valores. 
+*strings: Son un tipo de dato. Una cadena de caracteres que se leera como texto, como por ejemplo 'adsadasd'
+ o '249ufnj'
+*funciones (argumentos, 'return'): las funciones son como maquinas que les das uno o varios datos y 
+devuelven "algo". Los argumentos serian estos datos a darles. 
+'return' sirve para indicarle a la función que deje de ejecutarse y devuelva el valor obtenido.
+*Declaraciones 'if': Son condiciones que la computadora revisa y puede devolver que 
+la condicion se cumple o no se cumple.
+ *Valores booleanos (`true`, `false`): indican si algo (por ejemplo una comparación) es verdadera o falsa.
