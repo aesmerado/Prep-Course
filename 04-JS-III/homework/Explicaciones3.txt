@@ -1,0 +1,2 @@
+* Arrays: Son datos y a su vez una estructura de datos ordenada o con indice. 
+Pueden contener distintos tipos de datos (strings, numeros, arrays, booleanos, etc.)
