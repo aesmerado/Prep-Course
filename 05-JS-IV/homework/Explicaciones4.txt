@@ -1,0 +1,7 @@
+    * Objetos: Son representaciones de cosas de la realidad, tienen propiedades
+	* Propiedades: son las caracteristicas o elementos que tienen los objetos
+	* Métodos: son funciones que estan declaradas en una propiedad dentro del objeto
+	* Bucle `for…in`: es un loop especial para recorrer las claves de los objetos
+	* Notación de puntos vs notación de corchetes: Son 2 maneras de acceder a los valores 
+        de las propiedades de los objetos. La diferencia principal es que en la notación de
+        corchetes se pueden referenciar variables.
