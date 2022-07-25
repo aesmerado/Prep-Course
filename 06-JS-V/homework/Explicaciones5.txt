@@ -1,0 +1,3 @@
+* `prototype`: los prototipos son funciones que se pueden asociar a las clases para que
+ todos los objetos de esa clase o subclases los puedan utilizar.
+* _Constructors_ (de Clases): son formas de crear clases. Estas son como plantillas de objetos.
