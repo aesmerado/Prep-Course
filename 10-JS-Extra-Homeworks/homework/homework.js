@@ -10,14 +10,31 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  matriz=[]
+  for (let key in objeto) {
+    matriz.push([key,objeto[key]]);
+  }
+  return matriz;
 }
 
 
 function numberOfCharacters(string) {
-  //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece 
+  //La función recibe un string. Recorre el string y devuelve el caracter con el número de veces que aparece 
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  var objeto ={}
+  for (i=0;i<string.length;i++){
+    var letra = string[i];
+    var acumulador = 0;
+    for (j=0;j<string.length;j++){
+      if(letra === string[j]) {
+        acumulador++;
+      }
+    };
+    objeto[letra] = acumulador
+  };
+  return objeto;
 }
 
 
