@@ -127,6 +127,17 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
+  var tmp = '';
+  for (i = 0; i < arr.length; i++) { 
+      for (j = i + 1; j < arr.length; j++) {
+        if (arr[i].length > arr[j].length) {
+          tmp = arr[i];              
+          arr[i] = arr[j];            
+          arr[j] = tmp;
+          }
+      }
+  }
+  return arr;
 }
 
 
@@ -136,6 +147,7 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  
 }
 
 
